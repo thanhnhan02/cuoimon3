@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+.exo-2<uniquifier> {
+  font-family: "Exo 2", sans-serif;
+	font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+	font-family: "Exo 2", sans-serif; font-size: 16px; color: #666666; margin: 0
+}
+header{
+	width: 100%;height: 60px; background-color: whitesmoke;border-bottom: 1px
+		solid darkred
+}
+.logo img{
+	width: 300px; height: 30px; object-fit: contain; object-position: 10px 10%; margin: 10px
+}
+.banner{
+	width: 100%;min-height: 500px
+}
+aside{
+	width: 30%;padding: 15px;min-height: 400px;
+}
+.content{
+	width: 70%;padding: 20px;min-height: 400px; 
+}
+
+.menu{
+	padding-top: 15px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none; display: flex
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;font-size: 17px;color: #464646;border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred;color: white
+}
+
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+.text-do{
+	color: red
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none; display: flex;flex-direction: column
+}
+aside ul li a{
+	text-decoration: none;padding: 10px; display: block; color:  #666666
+}
+aside ul li{
+		border-bottom: 1px solid #666666
+}
+aside ul li a:hover{
+	background-color: darkred; color: white
+}
+.text-center{
+	text-align:center
+}
